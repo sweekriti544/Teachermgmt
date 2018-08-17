@@ -111,55 +111,67 @@
             </TableRow>
         </TableLayout>
     </LinearLayout>
-        <LinearLayout
-            android:layout_width="fill_parent"
-            android:layout_height="fill_parent"
-            android:orientation="vertical"
-            android:gravity="center"
-            >
-            <Button
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Sign up"
-                android:id="@+id/signup"
-                android:background="#217329"
-                android:textColor="#ffffff"
-                android:textStyle="bold"
-                android:layout_marginTop="10dp"
-                />
-            <Button
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="View Data"
-                android:id="@+id/viewa"
-                android:background="#217329"
-                android:textColor="#ffffff"
-                android:textStyle="bold"
-                android:layout_marginLeft="10dp"
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sign up"
+            android:id="@+id/signup"
+            android:background="#217329"
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="10dp"
+            android:layout_weight="0.5"
 
-                />
+            />
 
-
-            <Button
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Update Data"
-                android:id="@+id/updated"
-                android:background="#217329"
-                android:textColor="#ffffff"
-                android:textStyle="bold"
-                android:layout_marginTop="10dp"
-                />
-
-            <Button
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Delete Data"
-                android:id="@+id/deleted"
-                android:background="#217329"
-                android:textColor="#ffffff"
-                android:textStyle="bold"
-                android:layout_marginTop="10dp"
-                />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="View Data"
+            android:id="@+id/viewa"
+            android:background="#217329"
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_weight="0.5"
+            />
         </LinearLayout>
-</LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Update Data"
+            android:id="@+id/updated"
+            android:background="#217329"
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            android:layout_weight="0.5"
+
+            />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Delete Data"
+            android:id="@+id/deleted"
+            android:background="#217329"
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="0.5"
+            />
+        </LinearLayout>
+    </LinearLayout>
+
+
